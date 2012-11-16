@@ -1,0 +1,7 @@
+<%= form_tag '/result' do %>
+  <%= label_tag 'Symbol' %>
+  <%= text_field_tag 'symbol' %>
+  <%= label_tag 'How many?' %>
+  <%= number_field_tag 'number' %>
+  <%= submit_tag 'Get Quotes'%>
+<% end %>

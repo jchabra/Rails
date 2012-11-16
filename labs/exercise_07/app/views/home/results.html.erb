@@ -1,0 +1,9 @@
+<h1><%= @symbol %></h1>
+
+<ol>
+	<% @quotes.each do |quote| %>
+	<li><%= number_to_currency(quote) %></li>
+	<% end %>
+</ol>
+
+<p>Average Price: <%= number_to_currency(@average_price) %></p>

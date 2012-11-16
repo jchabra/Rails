@@ -1,0 +1,25 @@
+body {
+	background: #505050;
+	color: #FFF;
+	font-family: 'Lucida Sans', sans-serif;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+	background: #FFF;
+	color: #000;
+	margin: 20px;
+	text-align: center;
+	padding: 15px;
+}
+
+.symbol {
+	font-size: 18px;
+}
+
+.clear {
+	clear: both;
+}

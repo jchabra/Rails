@@ -1,0 +1,14 @@
+<h1><%= @symbol %></h1>
+
+<p>
+	<ul>
+	<% @quotes.each do |quote| %>
+		<li><%= number_to_currency(quote) %></li>
+	<% end %>
+	</ul>
+</p>
+
+<p>Average Price: <%= number_to_currency(@average_price) %></p>
+
+<%= link_to "Home", root_path %>
+<%= link_to "Tally", portfolio_path %>

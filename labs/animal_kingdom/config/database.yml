@@ -1,0 +1,10 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ak_development
+  pool: 5
+  host: localhost
+  username: postgres
+  password: wdi2
+
+
