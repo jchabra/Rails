@@ -1,0 +1,2 @@
+module LithiaHelper
+end

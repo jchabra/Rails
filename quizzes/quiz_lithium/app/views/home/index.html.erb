@@ -1,0 +1,12 @@
+
+
+<%= form_tag '/', :remote => true do %>
+<div id= "name">
+  <%= submit_tag 'Name' %>
+</div><!--#name-->
+<div id= "field">
+  <input type="text" id="type" placeholder="name" />
+  <%= submit_tag 'Go', :id => 'go' %>
+</div><!--#field-->
+<div id="text"></div>
+<% end %>

@@ -1,0 +1,21 @@
+<h1>Listing lithia</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @lithia.each do |lithium| %>
+  <tr>
+    <td><%= link_to 'Show', lithium %></td>
+    <td><%= link_to 'Edit', edit_lithium_path(lithium) %></td>
+    <td><%= link_to 'Destroy', lithium, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Lithium', new_lithium_path %>

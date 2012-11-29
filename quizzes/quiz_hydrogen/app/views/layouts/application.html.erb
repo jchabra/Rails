@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuizHydrogen</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class ="container">
+	<div class="row">
+		<div class="span12 blue"></div><!--.span12-->
+	</div><!--.row-->
+	<div class="row">
+		<div class="span3 yellow"></div><!--.span3-->
+		<div class="span9 green"><%= yield %></div><!--.span9-->
+	</div><!--.row-->
+	<div class="row">
+		<div class="span4 orange"></div><!--.span3-->
+		<div class="span4 black"></div><!--.span3-->
+		<div class="span4 red"></div><!--.span3-->
+	</div><!--.row-->
+</div><!--.container-->
+
+<%= yield %>
+
+</body>
+</html>

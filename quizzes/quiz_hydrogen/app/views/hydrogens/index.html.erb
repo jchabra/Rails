@@ -1,0 +1,21 @@
+<h1>Listing hydrogens</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @hydrogens.each do |hydrogen| %>
+  <tr>
+    <td><%= link_to 'Show', hydrogen %></td>
+    <td><%= link_to 'Edit', edit_hydrogen_path(hydrogen) %></td>
+    <td><%= link_to 'Destroy', hydrogen, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Hydrogen', new_hydrogen_path %>
