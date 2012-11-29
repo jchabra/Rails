@@ -1,0 +1,7 @@
+<%= form_tag '/', :remote => true do %>
+  Email: <%= email_field("user", "address") %> <br>
+  Phone Number: <%= number_field_tag 'phone number' %> <br>
+  Message: <%= text_area_tag 'message' %><br>
+  <%= submit_tag 'Go!'%>
+<% end %>
+
