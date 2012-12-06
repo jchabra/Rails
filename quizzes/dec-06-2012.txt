@@ -1,0 +1,25 @@
+1) Avg of numbers between 250 and 725?
+
+  (250..725).inject(:+).to_i / (250..725).count 
+
+  => 487
+
+2) What is a stack frame?
+* It's one of the most important data structures in computer science. A stack has two main operations: push and pop. Push adds items to the stack; pop removes them. The stack uses LIFO – last in, first out. 
+
+3) Difference between set and list?
+* A set is a collection of well defined and distinct objects, considered as an object in its own right.The sets are not joined in any way.
+
+* Linked lists are about chaining data together, which allows you to easily search and sort.
+
+4) What is Big O Notation?
+* Big O Notation is used to describe the limiting behavior of a function when the argument tends towards a particular value or infinity, usually in terms of simpler functions. It characterizes functions according to their growth rates: different functions with the same growth rate may be represented using the same O notation.
+
+5) What is Big O of bubble sort?
+* Bubble sort has worst-case and average complexity both О(n2), where n is the number of items being sorted.
+
+6) How do you construct a double linked list?
+* A double linked list is a linked data structure that consists of a set of sequentially linked records called nodes. Each node contains two fields, called links, that are references to the previous and to the next node in the sequence of nodes.
+
+7) Estimate the number of pizzas sold in NYC in 1 year. 
+* 1 billion (?)
